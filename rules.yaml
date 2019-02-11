@@ -1,0 +1,19 @@
+World:
+	-SpawnMPUnits:
+	CrateSpawner:
+		CheckboxEnabled: false
+		CheckboxLocked: true
+	SpawnMPUnits:
+		DropdownLocked: true
+		StartingUnitsClass: none
+	LuaScript:
+		Scripts: racecondition.lua
+
+V08:
+	MustBeDestroyed:
+		RequiredForShortGame: true
+
+Player:
+	DeveloperMode:
+		CheckboxEnabled: true
+		CheckboxLocked: true
