@@ -250,33 +250,33 @@ Actors:
 	Actor64: arty
 		Owner: Bombers
 		Location: 48,15
-		Facing: 92
+		Facing: 192
 	Actor65: arty
 		Owner: Bombers
 		Location: 48,24
-		Facing: 92
+		Facing: 192
 	Actor66: arty
 		Owner: Bombers
 		Location: 80,23
-		Facing: 92
+		Facing: 64
 	Actor67: arty
 		Owner: Bombers
 		Location: 81,14
-		Facing: 92
+		Facing: 64
 	Actor68: arty
 		Owner: Bombers
 		Location: 60,36
-		Facing: 92
+		Facing: 0
 	Actor69: arty
 		Owner: Bombers
 		Location: 69,36
-		Facing: 92
+		Facing: 0
 	Actor70: arty
 		Owner: Bombers
 		Location: 69,3
-		Facing: 92
+		Facing: 128
 	Actor71: arty
 		Owner: Bombers
 		Location: 60,3
-		Facing: 92
+		Facing: 128
 Rules: rules.yaml

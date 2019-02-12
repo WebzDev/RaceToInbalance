@@ -42,15 +42,10 @@ PlaceRankedPlayer = function(player, rank)
     end
 
     local mcv = Actor.Create('mcv', true, { Location = wp.Location, Owner = player })
-    local homes = player.GetActorsByType("v08")
-    Utils.Do(homes, function(home)
-        home.Destroy()
-    end)
+    mcv.Deploy()
+    player.GetActorsByType("v08")[1].Destroy()
 
-    -- https://forum.openra.net/viewtopic.php?f=85&t=20354&p=305715&hilit=camera#p305715
-    -- Camera.Position = mcv.CenterPosition
-    Beacon.New(player, mcv.CenterPosition, 1)
-    -- Actor.Create("camera", true, { Owner = player, Location = wp.Location })
+    if player.IsLocalPlayer then Camera.Position = mcv.CenterPosition end
 end
 
 WorldLoaded = function()
@@ -59,13 +54,22 @@ WorldLoaded = function()
     Media.FloatingText("Survive the longest.", t.CenterPosition, 90)
 
     Players = Player.GetPlayers(function(player)
-        return player.IsLocalPlayer or player.IsBot
+        return not player.IsNonCombatant
     end)
 
     Utils.Do(Players, function(player)
         local wp = table.remove(RandomStartpoints)
         local jeep = Actor.Create("jeep", true, { Location = wp.Location, Owner = player })
         BindMCVToJeep(jeep)
+        if player.IsBot then jeep.Hunt() end
     end)
 
+    Actor64.Move(CPos.New(51, 14))
+    Actor65.Move(CPos.New(51, 23))
+    Actor66.Move(CPos.New(77, 24))
+    Actor67.Move(CPos.New(77, 15))
+    Actor68.Move(CPos.New(60, 32))
+    Actor69.Move(CPos.New(69, 32))
+    Actor70.Move(CPos.New(69, 6))
+    Actor71.Move(CPos.New(60, 6))
 end
