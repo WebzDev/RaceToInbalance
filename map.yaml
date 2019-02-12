@@ -279,4 +279,55 @@ Actors:
 		Owner: Bombers
 		Location: 60,3
 		Facing: 128
+	Actor72: brl3
+		Owner: Neutral
+		Location: 53,8
+	Actor73: brl3
+		Owner: Neutral
+		Location: 75,8
+	Actor74: brl3
+		Owner: Neutral
+		Location: 75,30
+	Actor75: brl3
+		Owner: Neutral
+		Location: 53,30
+	Actor76: barl
+		Owner: Neutral
+		Location: 56,11
+	Actor77: barl
+		Owner: Neutral
+		Location: 72,11
+	Actor78: barl
+		Owner: Neutral
+		Location: 72,19
+	Actor79: barl
+		Owner: Neutral
+		Location: 72,27
+	Actor80: barl
+		Owner: Neutral
+		Location: 56,27
+	Actor81: barl
+		Owner: Neutral
+		Location: 56,19
+	Actor82: barl
+		Owner: Neutral
+		Location: 62,17
+	Actor83: barl
+		Owner: Neutral
+		Location: 66,17
+	Actor84: barl
+		Owner: Neutral
+		Location: 66,21
+	Actor85: barl
+		Owner: Neutral
+		Location: 62,21
+	Actor86: barl
+		Owner: Neutral
+		Location: 64,27
+	Actor87: barl
+		Owner: Neutral
+		Location: 64,11
+	PitCenter: waypoint
+		Owner: Neutral
+		Location: 64,19
 Rules: rules.yaml

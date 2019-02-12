@@ -1,5 +1,6 @@
 World:
 	-SpawnMPUnits:
+	-MPStartLocations:
 	CrateSpawner:
 		CheckboxEnabled: false
 		CheckboxLocked: true
@@ -16,4 +17,3 @@ V08:
 Player:
 	DeveloperMode:
 		CheckboxEnabled: true
-		CheckboxLocked: true
