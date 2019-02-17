@@ -64,51 +64,6 @@ Players:
 		Faction: Random
 		Enemies: Creeps
 Actors:
-	Actor1: ctflag
-		Owner: Neutral
-		Location: 43,0
-	Actor2: ctflag
-		Owner: Neutral
-		Location: 85,0
-	Actor3: ctflag
-		Owner: Neutral
-		Location: 0,43
-	Actor4: ctflag
-		Owner: Neutral
-		Location: 0,85
-	Actor6: ctflag
-		Owner: Neutral
-		Location: 85,43
-	Actor7: ctflag
-		Owner: Neutral
-		Location: 43,85
-	Actor8: ctflag
-		Owner: Neutral
-		Location: 85,85
-	Actor9: ctflag
-		Owner: Neutral
-		Location: 129,85
-	Actor10: ctflag
-		Owner: Neutral
-		Location: 129,43
-	Actor11: ctflag
-		Owner: Neutral
-		Location: 85,129
-	Actor12: ctflag
-		Owner: Neutral
-		Location: 43,129
-	Actor13: ctflag
-		Owner: Neutral
-		Location: 64,43
-	Actor15: ctflag
-		Owner: Neutral
-		Location: 64,85
-	Actor16: ctflag
-		Owner: Neutral
-		Location: 85,64
-	Actor17: ctflag
-		Owner: Neutral
-		Location: 43,64
 	Actor18: mpspawn
 		Owner: Neutral
 		Location: 63,18
@@ -159,25 +114,22 @@ Actors:
 		Location: 74,15
 	wpBase1a: waypoint
 		Owner: Neutral
-		Location: 16,13
+		Location: 21,20
 	wpBase1b: waypoint
 		Owner: Neutral
-		Location: 108,16
+		Location: 108,20
 	wpBase2a: waypoint
 		Owner: Neutral
-		Location: 36,109
+		Location: 34,109
 	wpBase2b: waypoint
 		Owner: Neutral
 		Location: 95,109
-	Actor38: ctflag
-		Owner: Neutral
-		Location: 43,43
 	wpBase3a: waypoint
 		Owner: Neutral
-		Location: 10,71
+		Location: 15,73
 	wpBase3b: waypoint
 		Owner: Neutral
-		Location: 120,73
+		Location: 114,73
 	wpBase4a: waypoint
 		Owner: Neutral
 		Location: 48,50
@@ -187,42 +139,6 @@ Actors:
 	Actor43: mine
 		Owner: Neutral
 		Location: 64,50
-	Actor44: mine
-		Owner: Neutral
-		Location: 23,70
-	Actor45: mine
-		Owner: Neutral
-		Location: 106,72
-	Actor46: mine
-		Owner: Neutral
-		Location: 108,104
-	Actor47: mine
-		Owner: Neutral
-		Location: 84,116
-	Actor48: mine
-		Owner: Neutral
-		Location: 43,114
-	Actor49: mine
-		Owner: Neutral
-		Location: 25,104
-	Actor50: mine
-		Owner: Neutral
-		Location: 25,8
-	Actor51: gmine
-		Owner: Neutral
-		Location: 8,6
-	Actor52: gmine
-		Owner: Neutral
-		Location: 8,22
-	Actor53: gmine
-		Owner: Neutral
-		Location: 119,9
-	Actor54: gmine
-		Owner: Neutral
-		Location: 118,24
-	Actor55: mine
-		Owner: Neutral
-		Location: 101,8
 	Actor56: v08
 		Owner: Multi0
 		Location: 52,0
@@ -330,4 +246,130 @@ Actors:
 	PitCenter: waypoint
 		Owner: Neutral
 		Location: 64,19
+	Actor88: mine
+		Owner: Neutral
+		Location: 64,57
+	Actor89: gmine
+		Owner: Neutral
+		Location: 64,70
+	Actor90: mine
+		Owner: Neutral
+		Location: 39,23
+	Actor93: gmine
+		Owner: Neutral
+		Location: 13,30
+	Actor94: mine
+		Owner: Neutral
+		Location: 36,29
+	Actor91: mine
+		Owner: Neutral
+		Location: 33,9
+	Actor92: gmine
+		Owner: Neutral
+		Location: 117,31
+	Actor95: mine
+		Owner: Neutral
+		Location: 89,23
+	Actor96: mine
+		Owner: Neutral
+		Location: 90,28
+	Actor97: mine
+		Owner: Neutral
+		Location: 94,8
+	Actor98: mine
+		Owner: Neutral
+		Location: 37,66
+	Actor99: mine
+		Owner: Neutral
+		Location: 5,53
+	Actor100: mine
+		Owner: Neutral
+		Location: 5,86
+	Actor101: mine
+		Owner: Neutral
+		Location: 50,118
+	Actor102: mine
+		Owner: Neutral
+		Location: 50,104
+	Actor103: mine
+		Owner: Neutral
+		Location: 18,112
+	Actor105: mine
+		Owner: Neutral
+		Location: 76,110
+	Actor106: mine
+		Owner: Neutral
+		Location: 108,111
+	Actor107: mine
+		Owner: Neutral
+		Location: 122,87
+	Actor108: mine
+		Owner: Neutral
+		Location: 124,52
+	Actor109: mine
+		Owner: Neutral
+		Location: 93,45
+	Actor110: mine
+		Owner: Neutral
+		Location: 36,44
+	Actor111: mine
+		Owner: Neutral
+		Location: 97,64
+	Actor114: oilb
+		Owner: Neutral
+		Location: 3,3
+	Actor115: oilb
+		Owner: Neutral
+		Location: 3,6
+	Actor116: oilb
+		Owner: Neutral
+		Location: 6,3
+	Actor117: oilb
+		Owner: Neutral
+		Location: 123,3
+	Actor118: oilb
+		Owner: Neutral
+		Location: 126,3
+	Actor119: oilb
+		Owner: Neutral
+		Location: 126,6
+	Actor121: oilb
+		Owner: Neutral
+		Location: 124,31
+	Actor113: oilb
+		Owner: Neutral
+		Location: 6,30
+	Actor122: oilb
+		Owner: Neutral
+		Location: 125,34
+	Actor120: oilb
+		Owner: Neutral
+		Location: 126,37
+	Actor112: oilb
+		Owner: Neutral
+		Location: 5,33
+	Actor123: oilb
+		Owner: Neutral
+		Location: 4,36
+	Actor104: mine
+		Owner: Neutral
+		Location: 77,120
+	Actor124: oilb
+		Owner: Neutral
+		Location: 8,110
+	Actor125: oilb
+		Owner: Neutral
+		Location: 8,105
+	Actor126: oilb
+		Owner: Neutral
+		Location: 8,100
+	Actor127: oilb
+		Owner: Neutral
+		Location: 120,110
+	Actor128: oilb
+		Owner: Neutral
+		Location: 120,105
+	Actor129: oilb
+		Owner: Neutral
+		Location: 120,100
 Rules: rules.yaml
