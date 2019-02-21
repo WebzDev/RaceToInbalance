@@ -13,11 +13,14 @@ Ranking = {}
 MinigameTag = "minigame"
 Minigame = true
 MinigameActors = {}
+MinigameCameras = {}
 
 EndMinigame = function()
-    Media.Debug(#MinigameActors .. " minigame actors")
     Utils.Do(MinigameActors, function(actor)
         if not actor.IsDead then actor.Health = 0 end
+    end)
+    Utils.Do(MinigameCameras, function(camera)
+        camera.Destroy()
     end)
     Minigame = false
 end
@@ -115,7 +118,7 @@ WorldLoaded = function()
         if player.IsBot then jeep.Hunt() end
 
         local camera = Actor.Create("camera", true, { Location = PitCenter.Location, Owner = player })
-
+        table.insert(MinigameCameras, camera)
     end)
 
     Camera.Position = PitCenter.CenterPosition

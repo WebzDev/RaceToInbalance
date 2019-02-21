@@ -9,11 +9,9 @@ World:
 		StartingUnitsClass: none
 	LuaScript:
 		Scripts: racecondition.lua
+	MissionData:
+		Briefing: This map starts with a mini game. Drive your Jeep around and survive for a better spot on the map.
 
 V08:
 	MustBeDestroyed:
 		RequiredForShortGame: true
-
-Player:
-	DeveloperMode:
-		CheckboxEnabled: true
